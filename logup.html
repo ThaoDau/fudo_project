@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/css/logup.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap" rel="stylesheet">
+</head>
+<style>
+    span{
+        color: red;
+    }
+</style>
+<body>
+    
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="src/img/index/Fudo..png" alt="">
+            </div>
+        </header>
+        <form action="" onsubmit="return validate()">
+            <main>
+                <div class="title">
+                    <p>Welcome to Fudo</p>
+                    <h1>Create Account</h1>
+                </div>
+                
+                    <div class="information">
+                        <div class="input">
+                            <label for="">Email</label>
+                            <input type="text" placeholder="John.snow@gmail.com" class="email">
+                            <span class="err_email"></span>
+                        </div>
+                        <div class="input">
+                            <label for="">Fullname</label>
+                            <input type="text" placeholder="John.snow" class="name">
+                            <span class="err_name"></span>
+                        </div>
+                        <div class="input">
+                            <label for="">Password</label>
+                            <input type="password" placeholder="*********" class="pass">
+                            <span class="err_pass"></span>
+                        </div>
+                        <div class="input">
+                            <label for="">Re-Password</label>
+                            <input type="password" placeholder="*********" class="re_pass">
+                            <span class="err_re_pass"></span>
+                        </div>
+                    </div>
+
+            </main>
+            <footer>
+                <button class="create" type="submit">Create Now</button>
+            </footer>
+        </form>
+    </div>
+    <script src="src/js/logup.js"></script>
+</body>
+
+</html>

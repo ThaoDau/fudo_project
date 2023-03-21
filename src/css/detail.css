@@ -1,0 +1,448 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter',sans-serif;
+}
+.menu li{
+    display: inline-block;
+}
+li a{
+    text-decoration: none;
+    color:  #5D5D5D;
+    font-size: 18px;
+    font-family: 'Inter',sans-serif;
+}
+li :hover{
+    color: #F54748;
+}
+.signin{
+    border-radius: 5px;
+    color: #F54748;
+    border: 1px solid #F54748;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Inter',sans-serif;
+    cursor: pointer;
+}
+.signin:hover{
+    background-color: #F54748;
+    color: aliceblue;
+}
+.signup{
+    border-radius: 5px;
+    color: #F54748;
+    border: 1px solid #F54748;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Inter',sans-serif;
+    cursor: pointer;
+}
+.signup:hover{
+    background-color: #F54748;
+    color: aliceblue;
+}
+/*tittle*/
+.tittle h1{
+    color: #111928;
+}
+.tittle .price {
+    color: #F54748;
+    font-size: 40px;
+}
+.tittle .chu{
+    margin-top: 30px;
+    color: #111928; 
+    font-size: 18px;
+    /*font-weight: 400px*/
+    line-height: 22px;
+}
+.quantity{
+
+}
+.quantity input{
+    width: 180px;
+    height: 42px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    font-size: 14px;
+    margin-right: 21.31px;
+}
+.quantity input:hover{
+    border: 1px solid #F54748;
+}
+.quantity button {
+    color: #FFFFFF;
+    width: 110px;
+    height: 42px;
+    background: #111928;
+    border-radius: 5px;
+}
+.quantity button:hover{
+    background-color: #F54748;
+    color: #FFFFFF;
+    border: 1px solid #F54748;
+}
+@media(min-width: 1024px){
+    
+.container{
+    width: 1280px;
+    margin: auto;
+    /* height: 3000px; */
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+li{
+    display: inline-block;
+    padding: 0px 32px;
+}
+li a{
+    text-decoration: none;
+    color:  #5D5D5D;
+    font-size: 18px;
+    font-family: 'Inter',sans-serif;
+}
+li :hover{
+    color: #F54748;
+}
+
+.authenticate{
+    display: flex;
+    align-items: center;
+}
+.authenticate img{
+    cursor: pointer;
+}
+.signin{
+    width: 84px;
+    height: 42px;
+    border-radius: 5px;
+    color: #F54748;
+    border: 1px solid #F54748;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Inter',sans-serif;
+    margin-right: 36px;
+    margin-left: 23.12px;
+    cursor: pointer;
+}
+.signin:hover{
+    background-color: #F54748;
+    color: aliceblue;
+}
+.signup{
+    width: 84px;
+    height: 42px;
+    border-radius: 5px;
+    color: #F54748;
+    border: 1px solid #F54748;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Inter',sans-serif;
+    cursor: pointer;
+}
+.signup:hover{
+    background-color: #F54748;
+    color: aliceblue;
+}
+/*end header*/
+.noidung{
+    margin-top: 129px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+}
+.tittle h1{
+    font-size: 40px;
+    color: #111928;
+}
+.tittle .price {
+    margin-top: 20px;
+    color: #F54748;
+    font-size: 40px;
+}
+.tittle .chu{
+    margin-top: 30px;
+    color: #111928; 
+    font-size: 18px;
+    /*font-weight: 400px*/
+    line-height: 22px;
+}
+.quantity{
+    margin-top: 32px;
+
+}
+.quantity input{
+    width: 180px;
+    height: 42px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    font-size: 14px;
+    margin-right: 21.31px;
+}
+.quantity input:hover{
+    border: 1px solid #F54748;
+}
+.quantity button {
+    color: #FFFFFF;
+    width: 110px;
+    height: 42px;
+    background: #111928;
+    border-radius: 5px;
+}
+.quantity button:hover{
+    background-color: #F54748;
+    color: #FFFFFF;
+    border: 1px solid #F54748;
+}
+.related-products{
+    margin-top: 33px;   
+}
+.related-products-box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 40px;
+}
+.related-products h2{
+    font-size: 24px;
+}
+.related-products .part{
+    margin-top: 32px;
+}
+.related-products .part .text1{
+    margin-top: 24px;
+    font-size: 18px;
+    color: #111928;
+}
+.related-products .part .text2{
+    margin-top: 12px;
+    font-size: 20px;
+    color:#F54748 ;
+}
+/*hover chữ product*/
+.related-products .part .text1:hover{
+    color: #F54748;
+}
+.related-products .part button{
+    margin-top: 20px;
+    width: 400px;
+    height: 42px;
+    background: #111928;
+    border-radius: 6px;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+.related-products .part button:hover{
+    color: #FFFFFF;
+    background-color: #F54748;
+    border: 1px solid #F54748;
+}
+/*end main*/
+hr{
+    height: 0px;
+    width: 1280px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: 96px;
+
+}
+.logo-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 32px;
+    padding-bottom: 20px;
+}
+}
+@media (min-width: 10px) and (max-width: 768px){
+    main{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .container{
+        width: 100%;
+        margin:  0 auto;
+    }
+    
+    .logo{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .menu{
+        text-align: center;
+    }
+    .menu li{
+        padding: 0px 4px;
+    }
+    
+    .authenticate{
+        text-align: center;
+    }
+    .signin{
+        width: 70px;
+        height: 30px;
+        margin: 0px 8px;
+    }
+    .signup{
+        width: 70px;
+        height: 30px;
+    }
+    .anh-noidung img{
+        width: 350px;
+    }
+    .price{
+        font-size: 15px;
+    }
+    .tittle{
+        margin-top: 10px;
+    }
+    .quantity{
+        margin: 10px;
+    }
+    
+    .related-products h2{
+        font-size: 20px;
+    }
+    .related-products .part{
+        margin-top: 32px;
+    }
+    .related-products .part .text1{
+        margin-top: 24px;
+        font-size: 18px;
+        color: #111928;
+    }
+    .related-products .part .text2{
+        margin-top: 12px;
+        font-size: 20px;
+        color:#F54748 ;
+    }
+    .part img{
+        width: 350px;
+    }
+    /*hover chữ product*/
+    .related-products .part .text1:hover{
+        color: #F54748;
+    }
+    .related-products .part button{
+
+        margin-top: 20px;
+         width: 350px;
+        height:42px ;
+        background: #111928;
+        border-radius: 6px;
+        color: #FFFFFF;
+        font-size: 14px;
+    }
+    .related-products .part button:hover{
+       
+        color: #FFFFFF;
+        background-color: #F54748;
+        border: 1px solid #F54748;
+    }
+    .logo-footer .menu{
+        margin: 30px 0px;
+    }
+    hr{
+        margin-top: 20px;
+    }
+}
+@media (min-width:769px ) and (max-width: 1024px){
+    main{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .container{
+        width: 100%;
+        margin:  0 auto;
+    }
+    .logo{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .menu{
+        text-align: center;
+    }
+    .menu li{
+        padding: 0px 4px;
+    }
+    
+    .authenticate{
+        text-align: center;
+    }
+    .signin{
+        width: 70px;
+        height: 30px;
+        margin: 0px 8px;
+    }
+    .signup{
+        width: 70px;
+        height: 30px;
+    }
+    .anh-noidung img{
+        
+    }
+    .price{
+        font-size: 15px;
+    }
+    .tittle{
+        margin-top: 10px;
+    }
+    .quantity{
+        margin: 10px;
+    }
+    .related-products-box{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 10px;
+    }
+    .related-products h2{
+        font-size: 20px;
+    }
+    .related-products .part{
+        margin-top: 32px;
+    }
+    .related-products .part .text1{
+        font-size: 16px;
+        color: #111928;
+    }
+    .related-products .part .text2{
+        margin-top: 12px;
+        font-size: 20px;
+        color:#F54748 ;
+    }
+    .part img{
+        width: 350px;
+    }
+    /*hover chữ product*/
+    .related-products .part .text1:hover{
+        color: #F54748;
+    }
+    .related-products .part button{
+        margin-top: 20px;
+        width: 350px;
+        height:42px ;
+        background: #111928;
+        border-radius: 6px;
+        color: #FFFFFF;
+        font-size: 14px;
+    }
+    .related-products .part button:hover{
+       
+        color: #FFFFFF;
+        background-color: #F54748;
+        border: 1px solid #F54748;
+    }
+    hr{
+        margin-top: 20px;
+    }
+    .logo-footer .menu{
+        margin: 30px 0px;
+    }
+}

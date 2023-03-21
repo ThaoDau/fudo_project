@@ -1,0 +1,392 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter',sans-serif;
+}
+
+.container{
+    width: 1280px;
+    margin: 0 auto;
+    
+    
+}
+header{
+    margin-top: 20px;
+    background-color: #FFFFFF;
+}
+main .banner{
+    background-color: #FFFFFF;
+}
+
+.menu li{
+    display: inline-block;
+    
+}
+.menu li a{
+    text-decoration: none;
+    color:  #5D5D5D;
+    font-size: 18px;
+    font-family: 'Inter',sans-serif;
+}
+.menu li :hover{
+    color: #F54748;
+}
+.authenticate img{
+    cursor: pointer;
+}
+.signin{
+    border-radius: 5px;
+    color: #F54748;
+    border: 1px solid #F54748;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Inter',sans-serif;
+    cursor: pointer;
+}
+.signup{
+    border-radius: 5px;
+    color: #F54748;
+    border: 1px solid #F54748;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Inter',sans-serif;
+    cursor: pointer;
+}
+.trai li{
+    list-style-type: none;
+    
+ }
+ .trai li a{
+     text-decoration: none;
+     color:  #000000 ;
+     font-size: 20px;
+     font-family: 'Inter',sans-serif;
+     font-style: bold;
+ }
+ .trai li :hover{
+     color: #F54748;
+ }
+ .phai .part .text2{
+    color:#F54748 ;
+}
+.phai img{
+    border-radius: 10px;
+}
+/*hover chữ product*/
+.phai .part .text1:hover{
+    color: #F54748;
+    cursor: pointer;
+}
+.phai .part button{
+    margin-top: 20px;
+    cursor: pointer;
+
+    background: #111928;
+    border-radius: 6px;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+.phai .part button:hover{
+    color: #FFFFFF;
+    background-color: #F54748;
+    border: 1px solid #F54748;
+}
+/*LATOP*/
+@media (min-width: 1024px){
+    .container{
+        width: 1280px;
+        margin: auto;
+        /* height: 3000px; */
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .menu li{
+        
+        padding: 0px 32px;
+    }
+    .menu li a{
+        text-decoration: none;
+        color:  #5D5D5D;
+        font-size: 18px;
+        font-family: 'Inter',sans-serif;
+    }
+    .menu li :hover{
+        color: #F54748;
+    }
+    
+    .authenticate{
+        display: flex;
+        align-items: center;
+    }
+    
+    .signin{
+        width: 84px;
+        height: 42px;
+        border-radius: 5px;
+        color: #F54748;
+        border: 1px solid #F54748;
+        background-color: rgb(255, 255, 255);
+        font-family: 'Inter',sans-serif;
+        margin-right: 36px;
+        margin-left: 23.12px;
+        cursor: pointer;
+    }
+    .signin:hover{
+        background-color: #F54748;
+        color: aliceblue;
+    }
+    .signup{
+        width: 84px;
+        height: 42px;
+        border-radius: 5px;
+        color: #F54748;
+        border: 1px solid #F54748;
+        background-color: rgb(255, 255, 255);
+        font-family: 'Inter',sans-serif;
+        cursor: pointer;
+    }
+    
+    .signup:hover{
+        background-color: #F54748;
+        color: aliceblue;
+    }
+    /*end header*/
+    /*banner*/
+    .banner img{
+        margin-top: 38.5px;
+    }
+    .box-product{
+        margin-top: 48.5px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 230px;
+    }
+    .trai li{
+       list-style-type: none;
+        margin: 24px 0px;
+    }
+    .trai li a{
+        text-decoration: none;
+        color:  #000000 ;
+        font-size: 20px;
+        font-family: 'Inter',sans-serif;
+        font-style: bold;
+    }
+    .trai li :hover{
+        color: #F54748;
+    }
+    /*phai*/
+    .phai{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 40px;
+    }
+    .phai .part img{
+        width: 289.26px;
+        height: 196.51px;
+    
+    }
+    .phai .part{
+        margin-top: 32px;
+    }
+    .phai .part .text1{
+        Width :100%; 
+        Height: 36px;
+        color: #111928;
+    }
+    .phai .part .text2{
+        margin-top: 12px;
+        font-size: 20px;
+        color:#F54748 ;
+    }
+    /*hover chữ product*/
+    .phai .part .text1:hover{
+        color: #F54748;
+    }
+    .phai .part button{
+        margin-top: 20px;
+        width: 290px;
+        height: 31.17px;
+        background: #111928;
+        border-radius: 6px;
+        color: #FFFFFF;
+        font-size: 14px;
+    }
+    .phai .part button:hover{
+        color: #FFFFFF;
+        background-color: #F54748;
+        border: 1px solid #F54748;
+    }
+    /*end main*/
+    hr{
+        height: 0px;
+        width: 1280px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        margin-top: 96px;
+    
+    }
+    .logo-footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 32px;
+        padding-bottom: 10px;
+    }
+}
+@media (min-width: 10px) and (max-width: 768px){
+.container{
+    width: 100%;
+    height: 550px;
+    margin: auto;
+}
+
+.logo{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.menu{
+    text-align: center;
+}
+.menu li{
+    padding: 0px 4px;
+}
+
+.authenticate{
+    text-align: center;
+}
+.signin{
+    width: 70px;
+    height: 30px;
+    margin: 0px 8px;
+}
+.signup{
+    width: 70px;
+    height: 30px;
+}
+/*anh*/
+.banner img{
+    margin-top: 20px;
+    width: 100%;
+}
+.box-product{
+    display: flex;
+}
+.trai{
+    position: fixed;
+    z-index: -1000;
+    top: 0;
+    background-color: rgb(255, 254, 254);
+}
+.trai li {
+    margin: 20px 10px;
+}
+.trai li a{
+    font-size: 15px;
+}
+
+.phai{
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: 1fr ;
+}
+.phai .part button{
+    width: 100%;
+    height: 30px;
+}
+.phai .part {
+  margin: 10px 0px;
+}
+.phai .part .text1{
+    font-size: 15px;
+}
+.phai img{
+    width: 100%;
+}
+
+footer .menu{
+    margin: 30px 0px;
+}
+
+}
+@media (min-width: 769px) and (max-width:1024px){
+    
+
+    .logo{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .menu{
+        text-align: center;
+        margin-top: 10px;
+    }
+    .menu li{
+        padding: 0px 20px;
+    }
+    .authenticate{
+        text-align: right;
+        
+    }
+    .signin{
+        width: 70px;
+        height: 30px;
+        margin: 0px 8px;
+    }
+    .signup{
+        width: 70px;
+        height: 30px;
+    }
+    /*anh*/
+    .banner img{
+        margin-top: 20px;
+        width: 100%;
+       
+    }
+    .box-product{
+        display: flex;
+    }
+    .trai{
+        
+    }
+    .trai li {
+        margin: 20px 10px;
+    }
+    .trai li a{
+        font-size: 20px;
+    }
+    
+    .phai{
+        margin-left: 40px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+    .phai .part button{
+        width: 100%;
+        height: 30px;
+    }
+    .phai .part {
+      margin: 10px 0px;
+    }
+    .phai .part .text1{
+        font-size: 15px;
+    }
+    
+    .phai img{
+        width: 100%;
+    }
+    
+    footer .menu{
+        margin: 30px 0px;
+    }
+    footer .menu{
+        text-align: center;
+    }
+    footer .menu li{
+        margin: 0px 40px;
+    }
+    
+    
+}

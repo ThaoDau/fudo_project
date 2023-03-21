@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 400px;
+    margin: auto;
+    font-family: 'Inter', sans-serif;
+
+}
+
+header {
+    margin-top: 45px;
+}
+
+.logo {
+    text-align: center;
+}
+
+.title {
+    margin-top: 128px;
+    text-align: center;
+}
+
+.title p {}
+
+.title h1 {
+    margin-top: 16px;
+    color: #1A202C;
+}
+.title h1:hover{
+    color: #F54748;
+    cursor: pointer;
+}
+/*information*/
+.information{
+    margin-top: 36px;
+}
+.input{
+    margin-top: 12px;
+}
+.input label{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #4A5568;
+}
+.input input{
+    margin-top: 11px;
+width: 400px;
+height: 50px;
+color: #37A9CD;
+border: 1px solid #37A9CD;
+border-radius: 5px;
+padding: 17px 17px 17px;
+}
+.input input:hover{
+    border: 2px solid #055cf1;
+}
+footer{
+    margin: 32px 0px;
+}
+footer .create{
+    width: 400px;
+height: 50px;
+border: 1px solid #37A9CD;
+background-color: #37A9CD;
+color: #FFFFFF;
+font-family: 'Inter',sans-serif;
+border-radius: 5px;
+
+}
+footer .create:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
